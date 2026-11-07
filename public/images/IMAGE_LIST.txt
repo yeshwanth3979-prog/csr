@@ -1,0 +1,84 @@
+========================================================================
+CSR GROUP OF COMPANIES - IMAGE UPLOAD DIRECTORY LIST
+========================================================================
+
+Drop your image files into these folders to have them render directly in
+the frontend.
+
+HOW IT WORKS:
+1. When you place a file (e.g. `milk.jpg`) in the matching folder, the
+   website immediately displays your uploaded image!
+2. If any image has not yet been uploaded, the frontend automatically 
+   uses the high-resolution online fallback photo so your website never
+   shows a broken image.
+
+------------------------------------------------------------------------
+FOLDER 1: public/images/dairy/
+------------------------------------------------------------------------
+- hero.jpg            -> Sri Kanakadurgya Dairy top hero banner
+- card.jpg            -> Dairy card image on Homepage
+- milk.jpg            -> Milk (280ml, 500ml, 1000ml)
+- curd.jpg            -> Curd (Dahi)
+- butter.jpg          -> Churned Butter
+- ghee.jpg            -> Pure Cow Ghee
+- cheese.jpg          -> Processed & Mozzarella Cheese
+- paneer.jpg          -> Malai Paneer
+- ice-cream.jpg       -> Real Dairy Ice Cream
+
+------------------------------------------------------------------------
+FOLDER 2: public/images/fruits/
+------------------------------------------------------------------------
+- hero.jpg            -> Sri Anjaneya Fruit Box top hero banner
+- card.jpg            -> Fruit Box card image on Homepage
+- basic-fruit-box.jpg -> Basic Fruit Box
+- premium-fruit-box.jpg-> Premium Fruit Box
+- fresh-fruits.jpg    -> Fresh Seasonal Fruits
+- dry-fruits.jpg      -> Premium Dry Fruits
+
+------------------------------------------------------------------------
+FOLDER 3: public/images/vegetables/
+------------------------------------------------------------------------
+- hero.jpg            -> Sri Siddhi Vinayaka Vegetables hero banner
+- card.jpg            -> Vegetables card image on Homepage
+- all-vegetables.jpg  -> All Types of Vegetables
+- leafy-vegetables.jpg-> Leafy Vegetables (Palak, Methi, Greens)
+- seasonal-vegetables.jpg-> Seasonal Harvest Vegetables
+
+------------------------------------------------------------------------
+FOLDER 4: public/images/protein/
+------------------------------------------------------------------------
+- hero.jpg            -> Protein Box hero banner
+- card.jpg            -> Protein Box card image on Homepage
+- basic-protein-box.jpg-> Basic Protein Box
+- premium-protein-box.jpg-> Premium Protein Box
+- milk-eggs.jpg       -> Milk & Farm Eggs
+- sprouts-salads.jpg  -> Germinated Sprouts & Salads
+- sandwiches-rolls.jpg-> Whole Wheat Sandwiches & Rolls
+- sweets.jpg          -> Protein Energy Treats & Healthy Sweets
+
+------------------------------------------------------------------------
+FOLDER 5: public/images/meal-box/
+------------------------------------------------------------------------
+- hero.jpg            -> Sri Manikanta Meal Box hero banner
+- card.jpg            -> Meal Box card image on Homepage
+- basic-meal-box.jpg  -> Basic Meal Box
+- premium-meal-box.jpg-> Premium Meal Box
+- homely-snacks.jpg   -> Homely Snacks & Savouries
+- pickles.jpg         -> Authentic Traditional Pickles
+
+------------------------------------------------------------------------
+FOLDER 6: public/images/pooja-items/
+------------------------------------------------------------------------
+- hero.jpg            -> Vedha Gayathri Pooja Items hero banner
+- card.jpg            -> Pooja Items card image on Homepage
+- coconut.jpg         -> Sacred Water & Kalash Coconuts
+- incense-sticks.jpg  -> Herbal Agarbatti & Incense
+- doors-pooja-items.jpg-> Sacred Brass & Traditional Pooja Items
+- flower-mala.jpg     -> Handcrafted Flower Malas & Garlands
+
+========================================================================
+TIP: You can upload JPG, PNG, or WEBP formats. If using a different file
+extension (e.g. .png), simply update the extension in:
+src/data/businessesData.js
+========================================================================
+
